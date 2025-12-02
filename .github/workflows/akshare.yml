@@ -38,3 +38,9 @@ jobs:
           git add akshare.json
           git commit -m "Update akshare.json [skip ci]" || echo "No changes to commit"
           git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/ChestnutAztec/hana_helper.git HEAD:main
+     
+      - name: Debug secret
+        run: |
+          echo "PAT length: ${#PAT_TOKEN}"
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
