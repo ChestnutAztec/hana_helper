@@ -1,48 +1,42 @@
 name: Fetch AkShare JSON
 
-# 定时触发，每 10 分钟
 on:
   schedule:
     - cron: "*/10 * * * *"  # 每 10 分钟一次
-  workflow_dispatch:        # 可手动触发
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
-      # 1. 拉取代码
       - uses: actions/checkout@v3
 
-      # 2. 设置 Python 环境
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
 
-      # 3. 安装依赖（AKShare 等）
       - name: Install dependencies
         run: |
           pip install --upgrade pip
           pip install akshare pandas
 
-      # 4. 运行抓取脚本
       - name: Fetch AkShare JSON
         run: |
           python fetch_akshare.py
-      
-      - name: Debug secret
-        run: |
-          echo "PAT length: ${#PAT_TOKEN}"
-        env:
-          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
 
-      # 5. 提交并 push JSON
       - name: Commit JSON
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+          REPO: ${{ github.repository }}
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           git add akshare.json
-          git commit -m "Update akshare.json [skip ci]" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/ChestnutAztec/hana_helper.git HEAD:main
-     
-
+          git commit -m "Update akshare.json [skip ci]" || { echo "No changes to commit"; exit 0; }
+          TOKEN="${PAT_TOKEN:-$GITHUB_TOKEN}"
+          git push https://x-access-token:${TOKEN}@github.com/${REPO}.git HEAD:main
