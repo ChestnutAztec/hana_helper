@@ -60,13 +60,41 @@ def main():
 
     results = {
         "财联社": fetch_if_exists("财联社-全球快讯", "stock_info_global_cls"),
-        "东方财富个股新闻": fetch_if_exists("东方财富-个股新闻", "stock_news_em"),
-        "东方财富最新资讯": fetch_if_exists("东方财富-最新资讯", "stock_news_em", symbol="最新资讯"),
+        # 东方财富新闻接口当前存在返回格式问题（JSONDecodeError），暂时标记为跳过
+        "东方财富个股新闻": {
+            "名称": "东方财富-个股新闻",
+            "状态": "跳过",
+            "错误": "官方接口返回格式异常，已临时跳过",
+            "数据": [],
+        },
+        "东方财富最新资讯": {
+            "名称": "东方财富-最新资讯",
+            "状态": "跳过",
+            "错误": "官方接口返回格式异常，已临时跳过",
+            "数据": [],
+        },
         "东方财富个股热度榜": fetch_if_exists("东方财富-个股热度榜", "stock_hot_rank_em"),
-        "东方财富热门板块": fetch_if_exists("东方财富-热门板块", "stock_board_concept_name"),
+        # 概念热门接口在当前 AkShare 版本缺失
+        "东方财富热门板块": {
+            "名称": "东方财富-热门板块",
+            "状态": "缺失",
+            "错误": "akshare 无 stock_board_concept_name 接口",
+            "数据": [],
+        },
         "央视新闻": fetch_if_exists("央视新闻", "news_cctv"),
-        "百度财经": fetch_if_exists("百度财经", "news_economic_baidu"),
-        "百度研报时效": fetch_if_exists("百度研报时效", "news_report_time_baidu"),
+        # 百度财经类接口在云端经常 403 取不到 Cookie，改为跳过
+        "百度财经": {
+            "名称": "百度财经",
+            "状态": "跳过",
+            "错误": "云端获取百度 Cookie 403，已临时跳过",
+            "数据": [],
+        },
+        "百度研报时效": {
+            "名称": "百度研报时效",
+            "状态": "跳过",
+            "错误": "云端获取百度 Cookie 403，已临时跳过",
+            "数据": [],
+        },
         "财新要闻": fetch_if_exists("财新要闻", "stock_news_main_cx"),
     }
 
