@@ -1,39 +1,42 @@
-name: Fetch AkShare Data
+name: Fetch AkShare JSON
 
+# 定时触发，每 10 分钟
 on:
   schedule:
-    - cron: "*/10 * * * *"     # 每 10 分钟
-  workflow_dispatch:
+    - cron: "*/10 * * * *"  # 每 10 分钟一次
+  workflow_dispatch:        # 可手动触发
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
-
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      # 1. 拉取代码
+      - uses: actions/checkout@v3
 
-      - name: Set up Python
+      # 2. 设置 Python 环境
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.10"
+          python-version: "3.11"
 
-      - name: Install AkShare
+      # 3. 安装依赖（AKShare 等）
+      - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install akshare requests pandas
+          pip install akshare pandas
 
-      - name: Run fetch script
+      # 4. 运行抓取脚本
+      - name: Fetch AkShare JSON
         run: |
           python fetch_akshare.py
 
-      - name: Commit results
+      # 5. 提交并 push JSON
+      - name: Commit JSON
         run: |
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
-          git add .
-          git commit -m "Update AkShare data" || echo "Nothing to commit"
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add akshare.json
+          git commit -m "Update akshare.json [skip ci]" || echo "No changes to commit"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
