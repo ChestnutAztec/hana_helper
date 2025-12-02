@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install --upgrade "akshare==1.14.80" pandas
+          pip install --upgrade "akshare==1.17.91" pandas
 
       - name: Fetch AkShare JSON
         run: |
