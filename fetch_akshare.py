@@ -6,7 +6,6 @@ import traceback
 from datetime import date, datetime, time, timezone
 
 import pandas as pd
-
 import akshare as ak
 
 
@@ -24,50 +23,56 @@ def _convert_value(val):
     return val
 
 
-def safe_fetch(name, fn):
-    """获取接口并捕获异常，保证脚本不会崩"""
+def safe_fetch(label: str, fn):
+    """通用抓取与异常捕获，输出中文字段。"""
     try:
         df = fn()
         if df is None:
-            return {"name": name, "status": "empty", "items": []}
+            return {"名称": label, "状态": "空", "数据": []}
 
         df = df.copy()
-        # Use map over series to avoid applymap deprecation
         df = df.apply(lambda col: col.map(_convert_value))
 
         return {
-            "name": name,
-            "status": "ok",
-            "items": df.to_dict(orient="records")[:50],
+            "名称": label,
+            "状态": "正常",
+            "数据": df.to_dict(orient="records")[:50],
         }
     except Exception as e:
         return {
-            "name": name,
-            "status": "error",
-            "error": str(e),
-            "trace": traceback.format_exc(),
-            "items": [],
+            "名称": label,
+            "状态": "异常",
+            "错误": str(e),
+            "堆栈": traceback.format_exc(),
+            "数据": [],
         }
+
+
+def fetch_if_exists(label: str, attr: str, *args, **kwargs):
+    """检查 akshare 是否有该接口；没有则标记缺失。"""
+    if not hasattr(ak, attr):
+        return {"名称": label, "状态": "缺失", "数据": [], "错误": f"akshare 无 {attr}"}
+    return safe_fetch(label, lambda: getattr(ak, attr)(*args, **kwargs))
 
 
 def main():
     print("Fetching AkShare A-share data...")
 
-    results = {}
-
-    results["eastmoney_news"] = safe_fetch("东方财富-财经要闻", lambda: ak.news_eastmoney())
-    results["eastmoney_stock_news"] = safe_fetch("东方财富-个股新闻", lambda: ak.stock_news_em())
-    results["ths_7x24"] = safe_fetch("同花顺-7x24快讯", lambda: ak.stock_news_7x24_ths())
-    results["stcn_news"] = safe_fetch("证券时报-要闻", lambda: ak.stock_news_stcn())
-    results["sse_news"] = safe_fetch("上海证券报-要闻", lambda: ak.stock_news_sh())
-    results["szse_news"] = safe_fetch("深圳证券报-要闻", lambda: ak.stock_news_sz())
-    results["cninfo_notices"] = safe_fetch("巨潮-公司公告", lambda: ak.stock_notice_with_filters_em(date=None))
-    results["eastmoney_focus"] = safe_fetch("东方财富-大盘焦点", lambda: ak.stock_news_em(symbol="最新资讯"))
-    results["cailianpress"] = safe_fetch("财联社-全球快讯", lambda: ak.stock_info_global_cls())
+    results = {
+        "财联社": fetch_if_exists("财联社-全球快讯", "stock_info_global_cls"),
+        "东方财富个股新闻": fetch_if_exists("东方财富-个股新闻", "stock_news_em"),
+        "东方财富最新资讯": fetch_if_exists("东方财富-最新资讯", "stock_news_em", symbol="最新资讯"),
+        "东方财富个股热度榜": fetch_if_exists("东方财富-个股热度榜", "stock_hot_rank_em"),
+        "东方财富热门板块": fetch_if_exists("东方财富-热门板块", "stock_board_concept_name"),
+        "央视新闻": fetch_if_exists("央视新闻", "news_cctv"),
+        "百度财经": fetch_if_exists("百度财经", "news_economic_baidu"),
+        "百度研报时效": fetch_if_exists("百度研报时效", "news_report_time_baidu"),
+        "财新要闻": fetch_if_exists("财新要闻", "stock_news_main_cx"),
+    }
 
     output = {
-        "updated_at": datetime.now(timezone.utc).isoformat(),
-        "results": results,
+        "更新时间": datetime.now(timezone.utc).isoformat(),
+        "数据": results,
     }
 
     with open("akshare.json", "w", encoding="utf-8") as f:
