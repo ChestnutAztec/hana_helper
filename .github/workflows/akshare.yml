@@ -1,0 +1,39 @@
+name: Fetch AkShare Data
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"     # 每 10 分钟
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install AkShare
+        run: |
+          pip install --upgrade pip
+          pip install akshare requests pandas
+
+      - name: Run fetch script
+        run: |
+          python fetch_akshare.py
+
+      - name: Commit results
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add .
+          git commit -m "Update AkShare data" || echo "Nothing to commit"
+          git push
