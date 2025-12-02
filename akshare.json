@@ -1,40 +1,10 @@
 {
-  "更新时间": "2025-12-02T13:31:04.066523+00:00",
+  "更新时间": "2025-12-02T13:41:28.600018+00:00",
   "数据": {
     "财联社": {
       "名称": "财联社-全球快讯",
       "状态": "正常",
       "数据": [
-        {
-          "标题": "13天9板航天发展：公司目前不涉及AI国防系统",
-          "内容": "【13天9板航天发展：公司目前不涉及AI国防系统】财联社12月2日电，航天发展在互动平台表示，公司目前不涉及AI国防系统。",
-          "发布日期": "2025-12-02",
-          "发布时间": "21:02:04"
-        },
-        {
-          "标题": "2连板国风新材：PSPI光刻胶产品仍处研发阶段",
-          "内容": "【2连板国风新材：PSPI光刻胶产品仍处研发阶段】财联社12月2日电，国风新材在互动平台表示，目前公司光敏聚酰亚胺（PSPI）光刻胶产品仍处于研发阶段，未进行生产，未来量产时间存在不确定性。",
-          "发布日期": "2025-12-02",
-          "发布时间": "21:02:17"
-        },
-        {
-          "标题": "",
-          "内容": "财联社12月2日电，京东集团在额外要约期结束后，以最终获59.8%股权的结果成功控股德国电子产品零售商CECONOMY。",
-          "发布日期": "2025-12-02",
-          "发布时间": "21:02:41"
-        },
-        {
-          "标题": "",
-          "内容": "财联社12月2日电，波罗的海干散货指数涨0.66%，报2600点。",
-          "发布日期": "2025-12-02",
-          "发布时间": "21:04:28"
-        },
-        {
-          "标题": "",
-          "内容": "财联社12月2日电，与特朗普家族有关联的比特币矿商American Bitcoin盘前大跌22%。",
-          "发布日期": "2025-12-02",
-          "发布时间": "21:06:15"
-        },
         {
           "标题": "",
           "内容": "财联社12月2日电，Adobe Analytics数据显示，美国感恩节五天购物季期间线上消费额同比增长7.7%，达442亿美元。",
@@ -124,21 +94,49 @@
           "内容": "【美股盘前要闻一览】财联社12月2日电，投资者需重点关注的美股市场财经要闻如下：\n1、美国股指期货小幅上涨，截至目前，道琼斯指数期货涨0.16%，标普500指数期货涨0.27%，纳斯达克100指数期货涨0.43%。\n2、欧洲股市多数上涨，英国富时100指数涨0.13%，法国CAC40指数涨0.13%，德国DAX30指数涨0.38%。\n3、美国银行全球研究最新预测，美联储将在12月会议上降息25个基点，理由是美国劳动力市场状况疲弱，且政策制定者近期的表态暗示将提前降息。\n4、大摩将谷歌2027年TPU产量预测从原先的约300万块上调至500万块；将2028年TPU产量预测从原先的约320万块上调至700万块。\n5、消息人士称，华纳兄弟探索公司周一收到了第二轮竞标报价，其中包括流媒体巨头奈飞提出的一份主要以现金为主的收购提案。\n6、OpenAI首席执行官奥尔特曼宣布公司进入“红色警报”，推迟广告和其他新项目，谷歌模型威胁巨大，全力改进ChatGPT。\n7、马斯克在播客节目中推荐了两只“大型AI股”-谷歌和英伟达；即使这两只股票近期已大幅上涨，但它们仍然看起来很有吸引力。\n8、英伟达与新思科技将把GPU加速运算、AI、物理模拟与数位孪生技术整合到工程领域，协助半导体、航空、汽车、工业等产业加速研发流程。\n9、AI应用股MongoDB美股盘前涨超23%，公司2026财年Q3营收6.28亿美元超预期，同比增长19%。\n10、苹果公司宣布负责机器学习与人工智能战略的高级副总裁约翰·贾南达雷亚将辞去现任职务，由资深谷歌高管阿马尔·苏布拉马尼亚接任。",
           "发布日期": "2025-12-02",
           "发布时间": "21:26:51"
+        },
+        {
+          "标题": "辰安科技：实控人拟变更为合肥市国资委 股票复牌",
+          "内容": "【辰安科技：实控人拟变更为合肥市国资委 股票复牌】财联社12月2日电，辰安科技(300523.SZ)公告称，公司拟向特定对象合肥国有资本创业投资有限公司（简称“合肥国投”）发行股票，数量为公司发行前总股本的30%。如顺利完成，合肥国投将持有公司28.85%的股份，成为控股股东。公司现控股股东中国电信集团投资有限公司持股数量不变，未来作为重要股东持续协同赋能。本次发行后，公司控股股东将变更为合肥国投，实际控制人将变更为合肥市国资委。公司股票自2025年12月3日（星期三）开市起复牌。",
+          "发布日期": "2025-12-02",
+          "发布时间": "21:32:16"
+        },
+        {
+          "标题": "",
+          "内容": "财联社12月2日电，雷神技术旗下普惠公司获得16亿美元F135发动机维护合同。",
+          "发布日期": "2025-12-02",
+          "发布时间": "21:32:35"
+        },
+        {
+          "标题": "",
+          "内容": "财联社12月2日电，波音CFO预计737-10将于今年晚些时候获得认证。",
+          "发布日期": "2025-12-02",
+          "发布时间": "21:33:06"
+        },
+        {
+          "标题": "中越二维码互联互通项目在越南投入应用",
+          "内容": "【中越二维码互联互通项目在越南投入应用】财联社12月2日电，中国-越南二维码互联互通合作发布活动2日在越南首都河内举行，标志着该项目正式在越南市场投入应用。据悉，该项目将率先服务赴越南的中国消费者。中国消费者可使用云闪付APP、中国工商银行手机银行及境内支持“云闪付网络支付平台”的其他钱包等，在越南国家二维码VietQR受理商户扫码支付。",
+          "发布日期": "2025-12-02",
+          "发布时间": "21:33:07"
+        },
+        {
+          "标题": "爱尔兰宣布将向乌克兰提供1.25亿欧元援助",
+          "内容": "【爱尔兰宣布将向乌克兰提供1.25亿欧元援助】财联社12月2日电，据央视新闻，乌克兰总统泽连斯基当地时间12月2日在都柏林与爱尔兰总理马丁举行会晤。稍早前，爱尔兰总统康诺利会见泽连斯基，爱尔兰政府宣布将向乌克兰提供1.25亿欧元援助。资金将用于非致命性军事支持等用途，其中2500万欧元专项用于乌克兰能源设施的恢复与保护。",
+          "发布日期": "2025-12-02",
+          "发布时间": "21:36:53"
         }
       ]
     },
     "东方财富个股新闻": {
       "名称": "东方财富-个股新闻",
-      "状态": "异常",
-      "错误": "Extra data: line 1 column 17 (char 16)",
-      "堆栈": "Traceback (most recent call last):\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 29, in safe_fetch\n    df = fn()\n         ^^^^\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 55, in <lambda>\n    return safe_fetch(label, lambda: getattr(ak, attr)(*args, **kwargs))\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/akshare/news/news_stock.py\", line 68, in stock_news_em\n    data_json = json.loads(\n                ^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 1 column 17 (char 16)\n",
+      "状态": "跳过",
+      "错误": "官方接口返回格式异常，已临时跳过",
       "数据": []
     },
     "东方财富最新资讯": {
       "名称": "东方财富-最新资讯",
-      "状态": "异常",
-      "错误": "Extra data: line 1 column 17 (char 16)",
-      "堆栈": "Traceback (most recent call last):\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 29, in safe_fetch\n    df = fn()\n         ^^^^\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 55, in <lambda>\n    return safe_fetch(label, lambda: getattr(ak, attr)(*args, **kwargs))\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/akshare/news/news_stock.py\", line 68, in stock_news_em\n    data_json = json.loads(\n                ^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 1 column 17 (char 16)\n",
+      "状态": "跳过",
+      "错误": "官方接口返回格式异常，已临时跳过",
       "数据": []
     },
     "东方财富个股热度榜": {
@@ -227,14 +225,6 @@
         },
         {
           "当前排名": 11,
-          "代码": "SZ002632",
-          "股票名称": "道明光学",
-          "最新价": 15.05,
-          "涨跌额": 1.506505,
-          "涨跌幅": 10.01
-        },
-        {
-          "当前排名": 12,
           "代码": "SH600340",
           "股票名称": "华夏幸福",
           "最新价": 2.6,
@@ -242,12 +232,20 @@
           "涨跌幅": 10.17
         },
         {
-          "当前排名": 13,
+          "当前排名": 12,
           "代码": "SZ000078",
           "股票名称": "海王生物",
           "最新价": 4.11,
           "涨跌额": 0.4064790000000001,
           "涨跌幅": 9.89
+        },
+        {
+          "当前排名": 13,
+          "代码": "SZ002632",
+          "股票名称": "道明光学",
+          "最新价": 15.05,
+          "涨跌额": 1.506505,
+          "涨跌幅": 10.01
         },
         {
           "当前排名": 14,
@@ -283,19 +281,19 @@
         },
         {
           "当前排名": 18,
-          "代码": "SZ300300",
-          "股票名称": "海峡创新",
-          "最新价": 18.46,
-          "涨跌额": 2.4976380000000002,
-          "涨跌幅": 13.53
-        },
-        {
-          "当前排名": 19,
           "代码": "SH600829",
           "股票名称": "人民同泰",
           "最新价": 13.49,
           "涨跌额": 1.3530469999999999,
           "涨跌幅": 10.03
+        },
+        {
+          "当前排名": 19,
+          "代码": "SZ300300",
+          "股票名称": "海峡创新",
+          "最新价": 18.46,
+          "涨跌额": 2.4976380000000002,
+          "涨跌幅": 13.53
         },
         {
           "当前排名": 20,
@@ -347,14 +345,6 @@
         },
         {
           "当前排名": 26,
-          "代码": "SH603778",
-          "股票名称": "国晟科技",
-          "最新价": 13.11,
-          "涨跌额": 0.369702,
-          "涨跌幅": 2.82
-        },
-        {
-          "当前排名": 27,
           "代码": "SH600033",
           "股票名称": "福建高速",
           "最新价": 4.25,
@@ -362,12 +352,20 @@
           "涨跌幅": 10.1
         },
         {
-          "当前排名": 28,
+          "当前排名": 27,
           "代码": "SH600272",
           "股票名称": "开开实业",
           "最新价": 16.73,
           "涨跌额": 1.671327,
           "涨跌幅": 9.99
+        },
+        {
+          "当前排名": 28,
+          "代码": "SH603778",
+          "股票名称": "国晟科技",
+          "最新价": 13.11,
+          "涨跌额": 0.369702,
+          "涨跌幅": 2.82
         },
         {
           "当前排名": 29,
@@ -395,11 +393,11 @@
         },
         {
           "当前排名": 32,
-          "代码": "SZ000888",
-          "股票名称": "峨眉山Ａ",
-          "最新价": 14.46,
-          "涨跌额": 0.30655200000000005,
-          "涨跌幅": 2.12
+          "代码": "SH603696",
+          "股票名称": "安记食品",
+          "最新价": 14.63,
+          "涨跌额": 1.463,
+          "涨跌幅": 10.0
         },
         {
           "当前排名": 33,
@@ -411,38 +409,6 @@
         },
         {
           "当前排名": 34,
-          "代码": "SZ300638",
-          "股票名称": "广和通",
-          "最新价": 34.4,
-          "涨跌额": 2.14656,
-          "涨跌幅": 6.24
-        },
-        {
-          "当前排名": 35,
-          "代码": "SH601138",
-          "股票名称": "工业富联",
-          "最新价": 60.96,
-          "涨跌额": 1.170432,
-          "涨跌幅": 1.92
-        },
-        {
-          "当前排名": 36,
-          "代码": "SH603696",
-          "股票名称": "安记食品",
-          "最新价": 14.63,
-          "涨跌额": 1.463,
-          "涨跌幅": 10.0
-        },
-        {
-          "当前排名": 37,
-          "代码": "SZ000070",
-          "股票名称": "特发信息",
-          "最新价": 14.74,
-          "涨跌额": 0.571912,
-          "涨跌幅": 3.88
-        },
-        {
-          "当前排名": 38,
           "代码": "SZ000812",
           "股票名称": "陕西金叶",
           "最新价": 5.28,
@@ -450,7 +416,15 @@
           "涨跌幅": 10.0
         },
         {
-          "当前排名": 39,
+          "当前排名": 35,
+          "代码": "SZ300638",
+          "股票名称": "广和通",
+          "最新价": 34.4,
+          "涨跌额": 2.14656,
+          "涨跌幅": 6.24
+        },
+        {
+          "当前排名": 36,
           "代码": "SH603216",
           "股票名称": "梦天家居",
           "最新价": 33.66,
@@ -458,12 +432,36 @@
           "涨跌幅": 10.0
         },
         {
-          "当前排名": 40,
+          "当前排名": 37,
+          "代码": "SH601138",
+          "股票名称": "工业富联",
+          "最新价": 60.96,
+          "涨跌额": 1.170432,
+          "涨跌幅": 1.92
+        },
+        {
+          "当前排名": 38,
+          "代码": "SZ000888",
+          "股票名称": "峨眉山Ａ",
+          "最新价": 14.46,
+          "涨跌额": 0.30655200000000005,
+          "涨跌幅": 2.12
+        },
+        {
+          "当前排名": 39,
           "代码": "SZ002285",
           "股票名称": "世联行",
           "最新价": 3.34,
           "涨跌额": 0.32965799999999995,
           "涨跌幅": 9.87
+        },
+        {
+          "当前排名": 40,
+          "代码": "SZ000070",
+          "股票名称": "特发信息",
+          "最新价": 14.74,
+          "涨跌额": 0.571912,
+          "涨跌幅": 3.88
         },
         {
           "当前排名": 41,
@@ -483,19 +481,19 @@
         },
         {
           "当前排名": 43,
-          "代码": "SZ300123",
-          "股票名称": "亚光科技",
-          "最新价": 8.49,
-          "涨跌额": 0.751365,
-          "涨跌幅": 8.85
-        },
-        {
-          "当前排名": 44,
           "代码": "SH601500",
           "股票名称": "通用股份",
           "最新价": 4.69,
           "涨跌额": 0.47322100000000006,
           "涨跌幅": 10.09
+        },
+        {
+          "当前排名": 44,
+          "代码": "SZ300123",
+          "股票名称": "亚光科技",
+          "最新价": 8.49,
+          "涨跌额": 0.751365,
+          "涨跌幅": 8.85
         },
         {
           "当前排名": 45,
@@ -515,6 +513,22 @@
         },
         {
           "当前排名": 47,
+          "代码": "SZ002686",
+          "股票名称": "亿利达",
+          "最新价": 7.37,
+          "涨跌额": 0.737,
+          "涨跌幅": 10.0
+        },
+        {
+          "当前排名": 48,
+          "代码": "SH603106",
+          "股票名称": "恒银科技",
+          "最新价": 13.37,
+          "涨跌额": 1.3423479999999999,
+          "涨跌幅": 10.04
+        },
+        {
+          "当前排名": 49,
           "代码": "SZ301148",
           "股票名称": "嘉戎技术",
           "最新价": 47.57,
@@ -522,36 +536,20 @@
           "涨跌幅": 20.01
         },
         {
-          "当前排名": 48,
+          "当前排名": 50,
           "代码": "SH600977",
           "股票名称": "中国电影",
           "最新价": 18.2,
           "涨跌额": -0.7844199999999999,
           "涨跌幅": -4.31
-        },
-        {
-          "当前排名": 49,
-          "代码": "SZ002519",
-          "股票名称": "银河电子",
-          "最新价": 5.93,
-          "涨跌额": 0.29412799999999995,
-          "涨跌幅": 4.96
-        },
-        {
-          "当前排名": 50,
-          "代码": "SZ300058",
-          "股票名称": "蓝色光标",
-          "最新价": 10.0,
-          "涨跌额": -0.282,
-          "涨跌幅": -2.82
         }
       ]
     },
     "东方财富热门板块": {
       "名称": "东方财富-热门板块",
       "状态": "缺失",
-      "数据": [],
-      "错误": "akshare 无 stock_board_concept_name"
+      "错误": "akshare 无 stock_board_concept_name 接口",
+      "数据": []
     },
     "央视新闻": {
       "名称": "央视新闻",
@@ -621,16 +619,14 @@
     },
     "百度财经": {
       "名称": "百度财经",
-      "状态": "异常",
-      "错误": "Failed to obtain Baidu cookies: Network request failed: 403 Client Error: Forbidden for url: https://gushitong.baidu.com/calendar",
-      "堆栈": "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/akshare/news/news_baidu.py\", line 33, in _get_baidu_cookie\n    resp1.raise_for_status()\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/requests/models.py\", line 1026, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://gushitong.baidu.com/calendar\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/akshare/news/news_baidu.py\", line 120, in _baidu_finance_calendar\n    cookie = _get_baidu_cookie(headers.copy())  # 保护原始headers\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/akshare/news/news_baidu.py\", line 71, in _get_baidu_cookie\n    raise ConnectionError(f\"Network request failed: {str(e)}\") from e\nConnectionError: Network request failed: 403 Client Error: Forbidden for url: https://gushitong.baidu.com/calendar\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 29, in safe_fetch\n    df = fn()\n         ^^^^\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 55, in <lambda>\n    return safe_fetch(label, lambda: getattr(ak, attr)(*args, **kwargs))\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/akshare/news/news_baidu.py\", line 268, in news_economic_baidu\n    return _baidu_finance_calendar(\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/akshare/news/news_baidu.py\", line 123, in _baidu_finance_calendar\n    raise RuntimeError(f\"Failed to obtain Baidu cookies: {str(e)}\") from e\nRuntimeError: Failed to obtain Baidu cookies: Network request failed: 403 Client Error: Forbidden for url: https://gushitong.baidu.com/calendar\n",
+      "状态": "跳过",
+      "错误": "云端获取百度 Cookie 403，已临时跳过",
       "数据": []
     },
     "百度研报时效": {
       "名称": "百度研报时效",
-      "状态": "异常",
-      "错误": "Failed to obtain Baidu cookies: Network request failed: 403 Client Error: Forbidden for url: https://gushitong.baidu.com/calendar",
-      "堆栈": "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/akshare/news/news_baidu.py\", line 33, in _get_baidu_cookie\n    resp1.raise_for_status()\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/requests/models.py\", line 1026, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://gushitong.baidu.com/calendar\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/akshare/news/news_baidu.py\", line 120, in _baidu_finance_calendar\n    cookie = _get_baidu_cookie(headers.copy())  # 保护原始headers\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/akshare/news/news_baidu.py\", line 71, in _get_baidu_cookie\n    raise ConnectionError(f\"Network request failed: {str(e)}\") from e\nConnectionError: Network request failed: 403 Client Error: Forbidden for url: https://gushitong.baidu.com/calendar\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 29, in safe_fetch\n    df = fn()\n         ^^^^\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 55, in <lambda>\n    return safe_fetch(label, lambda: getattr(ak, attr)(*args, **kwargs))\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/akshare/news/news_baidu.py\", line 421, in news_report_time_baidu\n    return _baidu_finance_calendar(\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/akshare/news/news_baidu.py\", line 123, in _baidu_finance_calendar\n    raise RuntimeError(f\"Failed to obtain Baidu cookies: {str(e)}\") from e\nRuntimeError: Failed to obtain Baidu cookies: Network request failed: 403 Client Error: Forbidden for url: https://gushitong.baidu.com/calendar\n",
+      "状态": "跳过",
+      "错误": "云端获取百度 Cookie 403，已临时跳过",
       "数据": []
     },
     "财新要闻": {
@@ -682,7 +678,7 @@
         {
           "tag": "市场对万科的流动性担忧从“预期”走向“现实”",
           "summary": "风险会继续外溢吗？",
-          "interval_time": "9小时前",
+          "interval_time": "10小时前",
           "pub_time": "2025-12-02 03:31:03.102",
           "url": "https://deepview.caixin.com/event/EVENT.000000469.html?from=cxdata.caixin.com&cxapp_link=true"
         },
