@@ -1,52 +1,10 @@
 {
-  "更新时间": "2025-12-12T15:30:13.858383+00:00",
+  "更新时间": "2025-12-12T15:50:52.467486+00:00",
   "数据": {
     "财联社": {
       "名称": "财联社-全球快讯",
       "状态": "正常",
       "数据": [
-        {
-          "标题": "",
-          "内容": "财联社12月12日电，烧碱期货主力连续合约涨3.13%，报2175元(人民币)/吨。",
-          "发布日期": "2025-12-12",
-          "发布时间": "22:09:14"
-        },
-        {
-          "标题": "",
-          "内容": "财联社12月12日电，焦煤期货主力连续合约涨2.63%，报1055元(人民币)/吨。",
-          "发布日期": "2025-12-12",
-          "发布时间": "22:09:31"
-        },
-        {
-          "标题": "富力地产：前11月总销售收入约127亿元",
-          "内容": "【富力地产：前11月总销售收入约127亿元】财联社12月12日电，富力地产在港交所公告，集团于2025年11月的月内总销售收入共约人民币10亿元，销售面积达约112,500平方米。累计至2025年11月底，总销售收入约人民币127亿元，销售面积达约1,261,600平方米。",
-          "发布日期": "2025-12-12",
-          "发布时间": "22:15:20"
-        },
-        {
-          "标题": "",
-          "内容": "财联社12月12日电，力拓据称正与国际金融公司（IFC）洽谈阿根廷锂矿项目融资事宜。",
-          "发布日期": "2025-12-12",
-          "发布时间": "22:25:58"
-        },
-        {
-          "标题": "道指刷新历史高位 博通销售展望未达预期令科技股承压",
-          "内容": "【道指刷新历史高位 博通销售展望未达预期令科技股承压】财联社12月12日电，美股三大指数开盘走势分化，道指高开0.17%刷新历史高位，纳指低开0.45%，标普500指数低开0.2%。博通销售展望未达预期令科技股承压，博通跌超7%，AMD、甲骨文跌近1%。受降息预期提振，黄金、白银板块表现强势，赫克拉矿业、哈莫尼黄金涨超3%。",
-          "发布日期": "2025-12-12",
-          "发布时间": "22:31:18"
-        },
-        {
-          "标题": "",
-          "内容": "财联社12月12日电，Lululemon股价一度上涨13%，为4月9日以来最大涨幅。",
-          "发布日期": "2025-12-12",
-          "发布时间": "22:32:12"
-        },
-        {
-          "标题": "纳斯达克中国金龙指数涨0.98%",
-          "内容": "【纳斯达克中国金龙指数涨0.98%】财联社12月12日电，热门中概股多数上涨，纳斯达克中国金龙指数涨0.98%，网易涨超3%，蔚来涨超2%，小鹏汽车、理想汽车涨超1%。",
-          "发布日期": "2025-12-12",
-          "发布时间": "22:33:49"
-        },
         {
           "标题": "",
           "内容": "财联社12月12日电，美国银行将博通目标股价从460美元上调至500美元。",
@@ -124,6 +82,48 @@
           "内容": "财联社12月12日电，纳斯达克100指数跌幅扩大至1%，标普500指数跌0.5%。",
           "发布日期": "2025-12-12",
           "发布时间": "23:10:10"
+        },
+        {
+          "标题": "泰国看守总理阿努廷说已同特朗普通话",
+          "内容": "【泰国看守总理阿努廷说已同特朗普通话】财联社12月12日电，据新华社报道，泰国看守总理阿努廷12日晚表示，他已同美国总统特朗普就泰柬边境冲突通电话。阿努廷此前曾表示，此次通话双方将仅就边境冲突相关情况沟通看法，并非谈判。",
+          "发布日期": "2025-12-12",
+          "发布时间": "23:23:40"
+        },
+        {
+          "标题": "达实智能：物联网技术和产品已服务沐曦股份园区",
+          "内容": "【达实智能：物联网技术和产品已服务沐曦股份园区】财联社12月12日电，达实智能在互动平台表示，沐曦股份为公司“AI+物联网”开放实验室的首批入驻单位之一，双方共同探索更多AI+园区的应用场景。此外，公司物联网技术和产品已服务沐曦股份园区，助力打造高效智慧，安全温暖的工作空间。",
+          "发布日期": "2025-12-12",
+          "发布时间": "23:24:09"
+        },
+        {
+          "标题": "",
+          "内容": "财联社12月12日电，LME伦铜跌幅扩大，现跌1.1%，最新报11741.96美元/吨。",
+          "发布日期": "2025-12-12",
+          "发布时间": "23:24:42"
+        },
+        {
+          "标题": "",
+          "内容": "财联社12月12日电，戴尔据悉将于12月17日上调旗下所有商用产品线的价格。戴尔提价与内存芯片需求有关。",
+          "发布日期": "2025-12-12",
+          "发布时间": "23:30:43"
+        },
+        {
+          "标题": "",
+          "内容": "财联社12月12日电，荷兰政府转向发行更多短期债券，以应对养老金改革。",
+          "发布日期": "2025-12-12",
+          "发布时间": "23:31:34"
+        },
+        {
+          "标题": "",
+          "内容": "财联社12月12日电，现货黄金短线跳水近50美元，现报4303.52美元/盎司。",
+          "发布日期": "2025-12-12",
+          "发布时间": "23:32:03"
+        },
+        {
+          "标题": "德国人口到2070年或降至不足7500万",
+          "内容": "【德国人口到2070年或降至不足7500万】财联社12月12日电，德国联邦统计局12月11日发布的最新人口预测数据显示，到2070年德国人口或较当前水平减少大约900万，跌破7500万。",
+          "发布日期": "2025-12-12",
+          "发布时间": "23:39:21"
         }
       ]
     },
@@ -225,14 +225,6 @@
         },
         {
           "当前排名": 11,
-          "代码": "SZ000063",
-          "股票名称": "中兴通讯",
-          "最新价": 37.75,
-          "涨跌额": -0.071725,
-          "涨跌幅": -0.19
-        },
-        {
-          "当前排名": 12,
           "代码": "SZ002565",
           "股票名称": "顺灏股份",
           "最新价": 15.95,
@@ -240,7 +232,7 @@
           "涨跌幅": 10.0
         },
         {
-          "当前排名": 13,
+          "当前排名": 12,
           "代码": "SZ000969",
           "股票名称": "安泰科技",
           "最新价": 20.83,
@@ -248,12 +240,20 @@
           "涨跌幅": 9.98
         },
         {
-          "当前排名": 14,
+          "当前排名": 13,
           "代码": "SZ001208",
           "股票名称": "华菱线缆",
           "最新价": 16.34,
           "涨跌额": 1.6389019999999999,
           "涨跌幅": 10.03
+        },
+        {
+          "当前排名": 14,
+          "代码": "SZ000063",
+          "股票名称": "中兴通讯",
+          "最新价": 37.75,
+          "涨跌额": -0.071725,
+          "涨跌幅": -0.19
         },
         {
           "当前排名": 15,
@@ -289,11 +289,11 @@
         },
         {
           "当前排名": 19,
-          "代码": "SH600089",
-          "股票名称": "特变电工",
-          "最新价": 23.81,
-          "涨跌额": 1.5666979999999997,
-          "涨跌幅": 6.58
+          "代码": "SH600875",
+          "股票名称": "东方电气",
+          "最新价": 24.05,
+          "涨跌额": 2.40981,
+          "涨跌幅": 10.02
         },
         {
           "当前排名": 20,
@@ -305,11 +305,11 @@
         },
         {
           "当前排名": 21,
-          "代码": "SH600875",
-          "股票名称": "东方电气",
-          "最新价": 24.05,
-          "涨跌额": 2.40981,
-          "涨跌幅": 10.02
+          "代码": "SH600089",
+          "股票名称": "特变电工",
+          "最新价": 23.81,
+          "涨跌额": 1.5666979999999997,
+          "涨跌幅": 6.58
         },
         {
           "当前排名": 22,
@@ -329,6 +329,14 @@
         },
         {
           "当前排名": 24,
+          "代码": "SZ002255",
+          "股票名称": "海陆重工",
+          "最新价": 13.3,
+          "涨跌额": 1.3313300000000001,
+          "涨跌幅": 10.01
+        },
+        {
+          "当前排名": 25,
           "代码": "SH603601",
           "股票名称": "再升科技",
           "最新价": 8.43,
@@ -336,20 +344,12 @@
           "涨跌幅": 10.05
         },
         {
-          "当前排名": 25,
+          "当前排名": 26,
           "代码": "SZ002300",
           "股票名称": "太阳电缆",
           "最新价": 10.69,
           "涨跌额": 1.066862,
           "涨跌幅": 9.98
-        },
-        {
-          "当前排名": 26,
-          "代码": "SZ002255",
-          "股票名称": "海陆重工",
-          "最新价": 13.3,
-          "涨跌额": 1.3313300000000001,
-          "涨跌幅": 10.01
         },
         {
           "当前排名": 27,
@@ -369,19 +369,19 @@
         },
         {
           "当前排名": 29,
-          "代码": "SZ002235",
-          "股票名称": "安妮股份",
-          "最新价": 12.85,
-          "涨跌额": -0.708035,
-          "涨跌幅": -5.51
-        },
-        {
-          "当前排名": 30,
           "代码": "SH600550",
           "股票名称": "保变电气",
           "最新价": 10.25,
           "涨跌额": 1.02295,
           "涨跌幅": 9.98
+        },
+        {
+          "当前排名": 30,
+          "代码": "SZ002235",
+          "股票名称": "安妮股份",
+          "最新价": 12.85,
+          "涨跌额": -0.708035,
+          "涨跌幅": -5.51
         },
         {
           "当前排名": 31,
@@ -425,14 +425,6 @@
         },
         {
           "当前排名": 36,
-          "代码": "SZ002584",
-          "股票名称": "西陇科学",
-          "最新价": 9.35,
-          "涨跌额": 0.935,
-          "涨跌幅": 10.0
-        },
-        {
-          "当前排名": 37,
           "代码": "SZ002131",
           "股票名称": "利欧股份",
           "最新价": 5.21,
@@ -440,12 +432,20 @@
           "涨跌幅": 3.78
         },
         {
-          "当前排名": 38,
+          "当前排名": 37,
           "代码": "SZ002256",
           "股票名称": "兆新股份",
           "最新价": 3.91,
           "涨跌额": 0.39647400000000005,
           "涨跌幅": 10.14
+        },
+        {
+          "当前排名": 38,
+          "代码": "SZ002584",
+          "股票名称": "西陇科学",
+          "最新价": 9.35,
+          "涨跌额": 0.935,
+          "涨跌幅": 10.0
         },
         {
           "当前排名": 39,
@@ -473,14 +473,6 @@
         },
         {
           "当前排名": 42,
-          "代码": "SZ002451",
-          "股票名称": "摩恩电气",
-          "最新价": 10.78,
-          "涨跌额": 1.078,
-          "涨跌幅": 10.0
-        },
-        {
-          "当前排名": 43,
           "代码": "SH600776",
           "股票名称": "东方通信",
           "最新价": 16.09,
@@ -488,7 +480,7 @@
           "涨跌幅": 9.98
         },
         {
-          "当前排名": 44,
+          "当前排名": 43,
           "代码": "SH601727",
           "股票名称": "上海电气",
           "最新价": 8.85,
@@ -496,20 +488,28 @@
           "涨跌幅": 4.36
         },
         {
-          "当前排名": 45,
-          "代码": "SZ000801",
-          "股票名称": "四川九洲",
-          "最新价": 17.85,
-          "涨跌额": 1.7814300000000003,
-          "涨跌幅": 9.98
+          "当前排名": 44,
+          "代码": "SZ002451",
+          "股票名称": "摩恩电气",
+          "最新价": 10.78,
+          "涨跌额": 1.078,
+          "涨跌幅": 10.0
         },
         {
-          "当前排名": 46,
+          "当前排名": 45,
           "代码": "SH600990",
           "股票名称": "四创电子",
           "最新价": 31.13,
           "涨跌额": 3.113,
           "涨跌幅": 10.0
+        },
+        {
+          "当前排名": 46,
+          "代码": "SZ000801",
+          "股票名称": "四川九洲",
+          "最新价": 17.85,
+          "涨跌额": 1.7814300000000003,
+          "涨跌幅": 9.98
         },
         {
           "当前排名": 47,
@@ -521,6 +521,14 @@
         },
         {
           "当前排名": 48,
+          "代码": "SH601700",
+          "股票名称": "风范股份",
+          "最新价": 5.6,
+          "涨跌额": 0.56112,
+          "涨跌幅": 10.02
+        },
+        {
+          "当前排名": 49,
           "代码": "SH601566",
           "股票名称": "九牧王",
           "最新价": 15.03,
@@ -528,20 +536,12 @@
           "涨跌幅": 10.03
         },
         {
-          "当前排名": 49,
-          "代码": "SZ920576",
-          "股票名称": "天力复合",
-          "最新价": 60.84,
-          "涨跌额": 18.252,
-          "涨跌幅": 30.0
-        },
-        {
           "当前排名": 50,
-          "代码": "SH601700",
-          "股票名称": "风范股份",
-          "最新价": 5.6,
-          "涨跌额": 0.56112,
-          "涨跌幅": 10.02
+          "代码": "SH600868",
+          "股票名称": "梅雁吉祥",
+          "最新价": 3.94,
+          "涨跌额": 0.396364,
+          "涨跌幅": 10.06
         }
       ]
     },
@@ -632,8 +632,8 @@
     "财新要闻": {
       "名称": "财新要闻",
       "状态": "异常",
-      "错误": "Failed to connect after 3 attempts: Response ended prematurely",
-      "堆栈": "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/requests/models.py\", line 820, in generate\n    yield from self.raw.stream(chunk_size, decode_content=True)\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/urllib3/response.py\", line 1246, in stream\n    yield from self.read_chunked(amt, decode_content=decode_content)\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/urllib3/response.py\", line 1414, in read_chunked\n    self._update_chunk_length()\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/urllib3/response.py\", line 1340, in _update_chunk_length\n    raise ProtocolError(\"Response ended prematurely\") from None\nurllib3.exceptions.ProtocolError: Response ended prematurely\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/akshare/request.py\", line 28, in make_request_with_retry_json\n    response = requests.get(\n               ^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/requests/api.py\", line 73, in get\n    return request(\"get\", url, params=params, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/requests/api.py\", line 59, in request\n    return session.request(method=method, url=url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/requests/sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/requests/sessions.py\", line 746, in send\n    r.content\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/requests/models.py\", line 902, in content\n    self._content = b\"\".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b\"\"\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/requests/models.py\", line 822, in generate\n    raise ChunkedEncodingError(e)\nrequests.exceptions.ChunkedEncodingError: Response ended prematurely\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 29, in safe_fetch\n    df = fn()\n         ^^^^\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 55, in <lambda>\n    return safe_fetch(label, lambda: getattr(ak, attr)(*args, **kwargs))\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/akshare/stock/stock_news_cx.py\", line 27, in stock_news_main_cx\n    data_json = make_request_with_retry_json(url, params=params)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/akshare/request.py\", line 55, in make_request_with_retry_json\n    raise NetworkError(\nakshare.exceptions.NetworkError: Failed to connect after 3 attempts: Response ended prematurely\n",
+      "错误": "API Error: API request failed. Status code: 502 (Status code: None)",
+      "堆栈": "Traceback (most recent call last):\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 29, in safe_fetch\n    df = fn()\n         ^^^^\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 55, in <lambda>\n    return safe_fetch(label, lambda: getattr(ak, attr)(*args, **kwargs))\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/akshare/stock/stock_news_cx.py\", line 27, in stock_news_main_cx\n    data_json = make_request_with_retry_json(url, params=params)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/akshare/request.py\", line 44, in make_request_with_retry_json\n    raise APIError(\nakshare.exceptions.APIError: API Error: API request failed. Status code: 502 (Status code: None)\n",
       "数据": []
     }
   }
