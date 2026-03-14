@@ -1,5 +1,5 @@
 {
-  "更新时间": "2026-03-14T21:48:30.229388+00:00",
+  "更新时间": "2026-03-14T22:01:39.369984+00:00",
   "数据": {
     "财联社": {
       "名称": "财联社-全球快讯",
@@ -321,19 +321,19 @@
         },
         {
           "当前排名": 23,
-          "代码": "SH600519",
-          "股票名称": "贵州茅台",
-          "最新价": 1413.64,
-          "涨跌额": 21.911420000000003,
-          "涨跌幅": 1.55
-        },
-        {
-          "当前排名": 24,
           "代码": "SZ002969",
           "股票名称": "嘉美包装",
           "最新价": 26.47,
           "涨跌额": 2.652294,
           "涨跌幅": 10.02
+        },
+        {
+          "当前排名": 24,
+          "代码": "SH600519",
+          "股票名称": "贵州茅台",
+          "最新价": 1413.64,
+          "涨跌额": 21.911420000000003,
+          "涨跌幅": 1.55
         },
         {
           "当前排名": 25,
@@ -377,19 +377,19 @@
         },
         {
           "当前排名": 30,
-          "代码": "SH603366",
-          "股票名称": "日出东方",
-          "最新价": 10.32,
-          "涨跌额": 1.034064,
-          "涨跌幅": 10.02
-        },
-        {
-          "当前排名": 31,
           "代码": "SH601016",
           "股票名称": "节能风电",
           "最新价": 4.42,
           "涨跌额": -0.010166,
           "涨跌幅": -0.23
+        },
+        {
+          "当前排名": 31,
+          "代码": "SH603366",
+          "股票名称": "日出东方",
+          "最新价": 10.32,
+          "涨跌额": 1.034064,
+          "涨跌幅": 10.02
         },
         {
           "当前排名": 32,
@@ -441,6 +441,14 @@
         },
         {
           "当前排名": 38,
+          "代码": "SZ000617",
+          "股票名称": "中油资本",
+          "最新价": 8.88,
+          "涨跌额": -0.19536000000000006,
+          "涨跌幅": -2.2
+        },
+        {
+          "当前排名": 39,
           "代码": "SH600410",
           "股票名称": "华胜天成",
           "最新价": 28.59,
@@ -448,20 +456,12 @@
           "涨跌幅": -10.01
         },
         {
-          "当前排名": 39,
+          "当前排名": 40,
           "代码": "SZ002463",
           "股票名称": "沪电股份",
           "最新价": 81.18,
           "涨跌额": 5.146812,
           "涨跌幅": 6.34
-        },
-        {
-          "当前排名": 40,
-          "代码": "SZ000617",
-          "股票名称": "中油资本",
-          "最新价": 8.88,
-          "涨跌额": -0.19536000000000006,
-          "涨跌幅": -2.2
         },
         {
           "当前排名": 41,
@@ -633,7 +633,7 @@
       "名称": "财新要闻",
       "状态": "异常",
       "错误": "API Error: API request failed. Status code: 404 (Status code: None)",
-      "堆栈": "Traceback (most recent call last):\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 29, in safe_fetch\n    df = fn()\n         ^^^^\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 55, in <lambda>\n    return safe_fetch(label, lambda: getattr(ak, attr)(*args, **kwargs))\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/akshare/stock/stock_news_cx.py\", line 27, in stock_news_main_cx\n    data_json = make_request_with_retry_json(url, params=params)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/akshare/request.py\", line 44, in make_request_with_retry_json\n    raise APIError(\nakshare.exceptions.APIError: API Error: API request failed. Status code: 404 (Status code: None)\n",
+      "堆栈": "Traceback (most recent call last):\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 29, in safe_fetch\n    df = fn()\n         ^^^^\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 55, in <lambda>\n    return safe_fetch(label, lambda: getattr(ak, attr)(*args, **kwargs))\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/akshare/stock/stock_news_cx.py\", line 27, in stock_news_main_cx\n    data_json = make_request_with_retry_json(url, params=params)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/akshare/request.py\", line 44, in make_request_with_retry_json\n    raise APIError(\nakshare.exceptions.APIError: API Error: API request failed. Status code: 404 (Status code: None)\n",
       "数据": []
     }
   }
