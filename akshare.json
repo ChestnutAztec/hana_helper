@@ -1,5 +1,5 @@
 {
-  "更新时间": "2026-03-14T19:53:24.134520+00:00",
+  "更新时间": "2026-03-14T20:23:27.124668+00:00",
   "数据": {
     "财联社": {
       "名称": "财联社-全球快讯",
@@ -345,14 +345,6 @@
         },
         {
           "当前排名": 26,
-          "代码": "SZ300059",
-          "股票名称": "东方财富",
-          "最新价": 21.1,
-          "涨跌额": -0.25742,
-          "涨跌幅": -1.22
-        },
-        {
-          "当前排名": 27,
           "代码": "SZ002165",
           "股票名称": "红 宝 丽",
           "最新价": 12.76,
@@ -360,20 +352,28 @@
           "涨跌幅": 10.0
         },
         {
-          "当前排名": 28,
-          "代码": "SZ002429",
-          "股票名称": "兆驰股份",
-          "最新价": 11.94,
-          "涨跌额": 1.19997,
-          "涨跌幅": 10.05
+          "当前排名": 27,
+          "代码": "SZ300059",
+          "股票名称": "东方财富",
+          "最新价": 21.1,
+          "涨跌额": -0.25742,
+          "涨跌幅": -1.22
         },
         {
-          "当前排名": 29,
+          "当前排名": 28,
           "代码": "SH601991",
           "股票名称": "大唐发电",
           "最新价": 4.74,
           "涨跌额": 0.165426,
           "涨跌幅": 3.49
+        },
+        {
+          "当前排名": 29,
+          "代码": "SZ002429",
+          "股票名称": "兆驰股份",
+          "最新价": 11.94,
+          "涨跌额": 1.19997,
+          "涨跌幅": 10.05
         },
         {
           "当前排名": 30,
@@ -457,19 +457,19 @@
         },
         {
           "当前排名": 40,
-          "代码": "SZ002056",
-          "股票名称": "横店东磁",
-          "最新价": 25.84,
-          "涨跌额": 2.5839999999999996,
-          "涨跌幅": 10.0
-        },
-        {
-          "当前排名": 41,
           "代码": "SZ002506",
           "股票名称": "协鑫集成",
           "最新价": 5.42,
           "涨跌额": -0.415714,
           "涨跌幅": -7.67
+        },
+        {
+          "当前排名": 41,
+          "代码": "SZ002056",
+          "股票名称": "横店东磁",
+          "最新价": 25.84,
+          "涨跌额": 2.5839999999999996,
+          "涨跌幅": 10.0
         },
         {
           "当前排名": 42,
@@ -505,6 +505,14 @@
         },
         {
           "当前排名": 46,
+          "代码": "SZ000617",
+          "股票名称": "中油资本",
+          "最新价": 8.88,
+          "涨跌额": -0.19536000000000006,
+          "涨跌幅": -2.2
+        },
+        {
+          "当前排名": 47,
           "代码": "SZ000988",
           "股票名称": "华工科技",
           "最新价": 118.69,
@@ -512,7 +520,7 @@
           "涨跌幅": -7.2
         },
         {
-          "当前排名": 47,
+          "当前排名": 48,
           "代码": "SH603218",
           "股票名称": "日月股份",
           "最新价": 16.65,
@@ -520,20 +528,12 @@
           "涨跌幅": 7.63
         },
         {
-          "当前排名": 48,
+          "当前排名": 49,
           "代码": "SH600096",
           "股票名称": "云天化",
           "最新价": 43.13,
           "涨跌额": 0.8971040000000001,
           "涨跌幅": 2.08
-        },
-        {
-          "当前排名": 49,
-          "代码": "SZ000617",
-          "股票名称": "中油资本",
-          "最新价": 8.88,
-          "涨跌额": -0.19536000000000006,
-          "涨跌幅": -2.2
         },
         {
           "当前排名": 50,
@@ -633,7 +633,7 @@
       "名称": "财新要闻",
       "状态": "异常",
       "错误": "API Error: API request failed. Status code: 404 (Status code: None)",
-      "堆栈": "Traceback (most recent call last):\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 29, in safe_fetch\n    df = fn()\n         ^^^^\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 55, in <lambda>\n    return safe_fetch(label, lambda: getattr(ak, attr)(*args, **kwargs))\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/akshare/stock/stock_news_cx.py\", line 27, in stock_news_main_cx\n    data_json = make_request_with_retry_json(url, params=params)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/akshare/request.py\", line 44, in make_request_with_retry_json\n    raise APIError(\nakshare.exceptions.APIError: API Error: API request failed. Status code: 404 (Status code: None)\n",
+      "堆栈": "Traceback (most recent call last):\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 29, in safe_fetch\n    df = fn()\n         ^^^^\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 55, in <lambda>\n    return safe_fetch(label, lambda: getattr(ak, attr)(*args, **kwargs))\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/akshare/stock/stock_news_cx.py\", line 27, in stock_news_main_cx\n    data_json = make_request_with_retry_json(url, params=params)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/akshare/request.py\", line 44, in make_request_with_retry_json\n    raise APIError(\nakshare.exceptions.APIError: API Error: API request failed. Status code: 404 (Status code: None)\n",
       "数据": []
     }
   }
