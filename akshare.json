@@ -1,5 +1,5 @@
 {
-  "更新时间": "2026-06-25T04:34:47.745035+00:00",
+  "更新时间": "2026-06-25T08:07:52.170129+00:00",
   "数据": {
     "财联社": {
       "名称": "财联社-全球快讯",
@@ -22,10 +22,409 @@
     },
     "东方财富个股热度榜": {
       "名称": "东方财富-个股热度榜",
-      "状态": "异常",
-      "错误": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
-      "堆栈": "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/connectionpool.py\", line 788, in urlopen\n    response = self._make_request(\n               ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/connectionpool.py\", line 488, in _make_request\n    raise new_e\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/connectionpool.py\", line 464, in _make_request\n    self._validate_conn(conn)\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/connectionpool.py\", line 1106, in _validate_conn\n    conn.connect()\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/connection.py\", line 796, in connect\n    sock_and_verified = _ssl_wrap_socket_and_match_hostname(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/connection.py\", line 975, in _ssl_wrap_socket_and_match_hostname\n    ssl_sock = ssl_wrap_socket(\n               ^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/util/ssl_.py\", line 433, in ssl_wrap_socket\n    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/util/ssl_.py\", line 477, in _ssl_wrap_socket_impl\n    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/ssl.py\", line 517, in wrap_socket\n    return self.sslsocket_class._create(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/ssl.py\", line 1104, in _create\n    self.do_handshake()\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/ssl.py\", line 1382, in do_handshake\n    self._sslobj.do_handshake()\nConnectionResetError: [Errno 104] Connection reset by peer\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/connectionpool.py\", line 842, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/util/retry.py\", line 498, in increment\n    raise reraise(type(error), error, _stacktrace)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/util/util.py\", line 38, in reraise\n    raise value.with_traceback(tb)\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/connectionpool.py\", line 788, in urlopen\n    response = self._make_request(\n               ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/connectionpool.py\", line 488, in _make_request\n    raise new_e\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/connectionpool.py\", line 464, in _make_request\n    self._validate_conn(conn)\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/connectionpool.py\", line 1106, in _validate_conn\n    conn.connect()\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/connection.py\", line 796, in connect\n    sock_and_verified = _ssl_wrap_socket_and_match_hostname(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/connection.py\", line 975, in _ssl_wrap_socket_and_match_hostname\n    ssl_sock = ssl_wrap_socket(\n               ^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/util/ssl_.py\", line 433, in ssl_wrap_socket\n    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/util/ssl_.py\", line 477, in _ssl_wrap_socket_impl\n    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/ssl.py\", line 517, in wrap_socket\n    return self.sslsocket_class._create(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/ssl.py\", line 1104, in _create\n    self.do_handshake()\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/ssl.py\", line 1382, in do_handshake\n    self._sslobj.do_handshake()\nurllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 29, in safe_fetch\n    df = fn()\n         ^^^^\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 55, in <lambda>\n    return safe_fetch(label, lambda: getattr(ak, attr)(*args, **kwargs))\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/akshare/stock/stock_hot_rank_em.py\", line 45, in stock_hot_rank_em\n    r = requests.get(url, params=params)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/api.py\", line 87, in get\n    return request(\"get\", url, params=params, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/api.py\", line 71, in request\n    return session.request(method=method, url=url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/sessions.py\", line 651, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/sessions.py\", line 784, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/adapters.py\", line 711, in send\n    raise ConnectionError(err, request=request)\nrequests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))\n",
-      "数据": []
+      "状态": "正常",
+      "数据": [
+        {
+          "当前排名": 1,
+          "代码": "SH600584",
+          "股票名称": "长电科技",
+          "最新价": 104.17,
+          "涨跌额": 10.417,
+          "涨跌幅": 10.0
+        },
+        {
+          "当前排名": 2,
+          "代码": "SZ000725",
+          "股票名称": "京东方Ａ",
+          "最新价": 7.52,
+          "涨跌额": 0.478272,
+          "涨跌幅": 6.36
+        },
+        {
+          "当前排名": 3,
+          "代码": "SH600667",
+          "股票名称": "太极实业",
+          "最新价": 25.31,
+          "涨跌额": 2.531,
+          "涨跌幅": 10.0
+        },
+        {
+          "当前排名": 4,
+          "代码": "SH600522",
+          "股票名称": "中天科技",
+          "最新价": 68.1,
+          "涨跌额": 6.81,
+          "涨跌幅": 10.0
+        },
+        {
+          "当前排名": 5,
+          "代码": "SH603986",
+          "股票名称": "兆易创新",
+          "最新价": 775.21,
+          "涨跌额": 77.055874,
+          "涨跌幅": 9.94
+        },
+        {
+          "当前排名": 6,
+          "代码": "SZ002185",
+          "股票名称": "华天科技",
+          "最新价": 22.4,
+          "涨跌额": 1.5164799999999996,
+          "涨跌幅": 6.77
+        },
+        {
+          "当前排名": 7,
+          "代码": "SZ300059",
+          "股票名称": "东方财富",
+          "最新价": 21.11,
+          "涨跌额": 0.9731710000000001,
+          "涨跌幅": 4.61
+        },
+        {
+          "当前排名": 8,
+          "代码": "SH600703",
+          "股票名称": "三安光电",
+          "最新价": 21.67,
+          "涨跌额": -0.13868800000000003,
+          "涨跌幅": -0.64
+        },
+        {
+          "当前排名": 9,
+          "代码": "SZ000021",
+          "股票名称": "深科技",
+          "最新价": 53.2,
+          "涨跌额": 3.10156,
+          "涨跌幅": 5.83
+        },
+        {
+          "当前排名": 10,
+          "代码": "SZ000636",
+          "股票名称": "风华高科",
+          "最新价": 79.62,
+          "涨跌额": 7.962000000000001,
+          "涨跌幅": 10.0
+        },
+        {
+          "当前排名": 11,
+          "代码": "SH600176",
+          "股票名称": "中国巨石",
+          "最新价": 70.8,
+          "涨跌额": 6.53484,
+          "涨跌幅": 9.23
+        },
+        {
+          "当前排名": 12,
+          "代码": "SH600172",
+          "股票名称": "黄河旋风",
+          "最新价": 18.27,
+          "涨跌额": 1.249668,
+          "涨跌幅": 6.84
+        },
+        {
+          "当前排名": 13,
+          "代码": "SZ300223",
+          "股票名称": "北京君正",
+          "最新价": 237.36,
+          "涨跌额": 47.47200000000001,
+          "涨跌幅": 20.0
+        },
+        {
+          "当前排名": 14,
+          "代码": "SH600206",
+          "股票名称": "有研新材",
+          "最新价": 56.16,
+          "涨跌额": 4.773599999999999,
+          "涨跌幅": 8.5
+        },
+        {
+          "当前排名": 15,
+          "代码": "SZ000100",
+          "股票名称": "TCL科技",
+          "最新价": 5.34,
+          "涨跌额": 0.5393399999999999,
+          "涨跌幅": 10.1
+        },
+        {
+          "当前排名": 16,
+          "代码": "SZ000783",
+          "股票名称": "长江证券",
+          "最新价": 10.15,
+          "涨跌额": 1.0119550000000002,
+          "涨跌幅": 9.97
+        },
+        {
+          "当前排名": 17,
+          "代码": "SZ002579",
+          "股票名称": "中京电子",
+          "最新价": 21.3,
+          "涨跌额": 2.13426,
+          "涨跌幅": 10.02
+        },
+        {
+          "当前排名": 18,
+          "代码": "SZ300502",
+          "股票名称": "新易盛",
+          "最新价": 610.49,
+          "涨跌额": 60.682705999999996,
+          "涨跌幅": 9.94
+        },
+        {
+          "当前排名": 19,
+          "代码": "SZ002156",
+          "股票名称": "通富微电",
+          "最新价": 77.81,
+          "涨跌额": 3.306925,
+          "涨跌幅": 4.25
+        },
+        {
+          "当前排名": 20,
+          "代码": "SH600487",
+          "股票名称": "亨通光电",
+          "最新价": 123.0,
+          "涨跌额": 4.1082,
+          "涨跌幅": 3.34
+        },
+        {
+          "当前排名": 21,
+          "代码": "SH603019",
+          "股票名称": "中科曙光",
+          "最新价": 97.82,
+          "涨跌额": 9.782,
+          "涨跌幅": 10.0
+        },
+        {
+          "当前排名": 22,
+          "代码": "SZ001309",
+          "股票名称": "德明利",
+          "最新价": 891.0,
+          "涨跌额": 89.1,
+          "涨跌幅": 10.0
+        },
+        {
+          "当前排名": 23,
+          "代码": "SZ002428",
+          "股票名称": "云南锗业",
+          "最新价": 130.1,
+          "涨跌额": 7.415699999999999,
+          "涨跌幅": 5.7
+        },
+        {
+          "当前排名": 24,
+          "代码": "SH688525",
+          "股票名称": "佰维存储",
+          "最新价": 480.3,
+          "涨跌额": 72.90953999999999,
+          "涨跌幅": 15.18
+        },
+        {
+          "当前排名": 25,
+          "代码": "SZ000066",
+          "股票名称": "中国长城",
+          "最新价": 20.47,
+          "涨跌额": 1.5843779999999998,
+          "涨跌幅": 7.74
+        },
+        {
+          "当前排名": 26,
+          "代码": "SH600105",
+          "股票名称": "永鼎股份",
+          "最新价": 72.96,
+          "涨跌额": 4.479743999999999,
+          "涨跌幅": 6.14
+        },
+        {
+          "当前排名": 27,
+          "代码": "SZ002463",
+          "股票名称": "沪电股份",
+          "最新价": 154.99,
+          "涨跌额": 12.585188,
+          "涨跌幅": 8.12
+        },
+        {
+          "当前排名": 28,
+          "代码": "SZ002384",
+          "股票名称": "东山精密",
+          "最新价": 275.8,
+          "涨跌额": 20.02308,
+          "涨跌幅": 7.26
+        },
+        {
+          "当前排名": 29,
+          "代码": "SZ301308",
+          "股票名称": "江波龙",
+          "最新价": 677.3,
+          "涨跌额": 62.65025,
+          "涨跌幅": 9.25
+        },
+        {
+          "当前排名": 30,
+          "代码": "SH601991",
+          "股票名称": "大唐发电",
+          "最新价": 7.47,
+          "涨跌额": -0.334656,
+          "涨跌幅": -4.48
+        },
+        {
+          "当前排名": 31,
+          "代码": "SZ002354",
+          "股票名称": "天娱数科",
+          "最新价": 8.03,
+          "涨跌额": -0.8013939999999999,
+          "涨跌幅": -9.98
+        },
+        {
+          "当前排名": 32,
+          "代码": "SZ002580",
+          "股票名称": "圣阳股份",
+          "最新价": 25.28,
+          "涨跌额": -0.22752000000000003,
+          "涨跌幅": -0.9
+        },
+        {
+          "当前排名": 33,
+          "代码": "SZ002167",
+          "股票名称": "东方锆业",
+          "最新价": 22.77,
+          "涨跌额": 1.3889699999999998,
+          "涨跌幅": 6.1
+        },
+        {
+          "当前排名": 34,
+          "代码": "SZ300136",
+          "股票名称": "信维通信",
+          "最新价": 116.73,
+          "涨跌额": 15.40836,
+          "涨跌幅": 13.2
+        },
+        {
+          "当前排名": 35,
+          "代码": "SZ300285",
+          "股票名称": "国瓷材料",
+          "最新价": 98.4,
+          "涨跌额": 7.163520000000001,
+          "涨跌幅": 7.28
+        },
+        {
+          "当前排名": 36,
+          "代码": "SZ002491",
+          "股票名称": "通鼎互联",
+          "最新价": 38.5,
+          "涨跌额": 1.50535,
+          "涨跌幅": 3.91
+        },
+        {
+          "当前排名": 37,
+          "代码": "SH601138",
+          "股票名称": "工业富联",
+          "最新价": 76.99,
+          "涨跌额": 0.20787299999999997,
+          "涨跌幅": 0.27
+        },
+        {
+          "当前排名": 38,
+          "代码": "SH600186",
+          "股票名称": "莲花控股",
+          "最新价": 15.6,
+          "涨跌额": 1.56156,
+          "涨跌幅": 10.01
+        },
+        {
+          "当前排名": 39,
+          "代码": "SZ000657",
+          "股票名称": "中钨高新",
+          "最新价": 105.68,
+          "涨跌额": 5.91808,
+          "涨跌幅": 5.6
+        },
+        {
+          "当前排名": 40,
+          "代码": "SH688797",
+          "股票名称": "C臻宝",
+          "最新价": 574.44,
+          "涨跌额": -10.397364000000003,
+          "涨跌幅": -1.81
+        },
+        {
+          "当前排名": 41,
+          "代码": "SH605589",
+          "股票名称": "圣泉集团",
+          "最新价": 72.96,
+          "涨跌额": 7.295999999999999,
+          "涨跌幅": 10.0
+        },
+        {
+          "当前排名": 42,
+          "代码": "SZ300308",
+          "股票名称": "中际旭创",
+          "最新价": 1323.4,
+          "涨跌额": 11.38124,
+          "涨跌幅": 0.86
+        },
+        {
+          "当前排名": 43,
+          "代码": "SZ300408",
+          "股票名称": "三环集团",
+          "最新价": 163.62,
+          "涨跌额": 20.681568000000002,
+          "涨跌幅": 12.64
+        },
+        {
+          "当前排名": 44,
+          "代码": "SH600330",
+          "股票名称": "天通股份",
+          "最新价": 35.6,
+          "涨跌额": 3.56356,
+          "涨跌幅": 10.01
+        },
+        {
+          "当前排名": 45,
+          "代码": "SH601066",
+          "股票名称": "中信建投",
+          "最新价": 29.56,
+          "涨跌额": 1.9509599999999998,
+          "涨跌幅": 6.6
+        },
+        {
+          "当前排名": 46,
+          "代码": "SH601899",
+          "股票名称": "紫金矿业",
+          "最新价": 25.92,
+          "涨跌额": -1.622592,
+          "涨跌幅": -6.26
+        },
+        {
+          "当前排名": 47,
+          "代码": "SZ002409",
+          "股票名称": "雅克科技",
+          "最新价": 181.03,
+          "涨跌额": 8.345483,
+          "涨跌幅": 4.61
+        },
+        {
+          "当前排名": 48,
+          "代码": "SH600460",
+          "股票名称": "士兰微",
+          "最新价": 49.86,
+          "涨跌额": -0.14958,
+          "涨跌幅": -0.3
+        },
+        {
+          "当前排名": 49,
+          "代码": "SZ002837",
+          "股票名称": "英维克",
+          "最新价": 86.99,
+          "涨跌额": 4.332102,
+          "涨跌幅": 4.98
+        },
+        {
+          "当前排名": 50,
+          "代码": "SZ000823",
+          "股票名称": "超声电子",
+          "最新价": 25.87,
+          "涨跌额": 2.584413,
+          "涨跌幅": 9.99
+        }
+      ]
     },
     "东方财富热门板块": {
       "名称": "东方财富-热门板块",
@@ -89,7 +488,7 @@
         },
         {
           "date": "20240424",
-          "title": "我国设立国家海外知识产权纠纷应对指导中心 为企业挽回经济损失68.9亿元",
+          "title": "对不起，可能是网络原因或无此页面，请稍后尝试。",
           "content": "国务院新闻办公室今天（4月24日）举行发布会，国家知识产权局介绍，已经会同中国贸促会设立国家海外知识产权纠纷应对指导中心，并在27个省（区、市）布局建设了43家地方分中心，在贸易往来密集的国家和地区设立了工作指导站，为企业提供专业高效的海外维权指导服务。2023年，指导企业1706家，为企业挽回经济损失68.9亿元，帮助企业降低维权成本3.9亿元。"
         },
         {
