@@ -1,11 +1,11 @@
 {
-  "更新时间": "2026-07-21T04:32:30.376967+00:00",
+  "更新时间": "2026-07-21T07:20:26.062719+00:00",
   "数据": {
     "财联社": {
       "名称": "财联社-全球快讯",
       "状态": "异常",
-      "错误": "Failed to connect after 10 attempts: HTTPSConnectionPool(host='www.cls.cn', port=443): Max retries exceeded with url: /nodeapi/telegraphList (Caused by NewConnectionError(\"HTTPSConnection(host='www.cls.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
-      "堆栈": "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/connection.py\", line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/util/connection.py\", line 85, in create_connection\n    raise err\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/util/connection.py\", line 73, in create_connection\n    sock.connect(sa)\nOSError: [Errno 101] Network is unreachable\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/connectionpool.py\", line 788, in urlopen\n    response = self._make_request(\n               ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/connectionpool.py\", line 488, in _make_request\n    raise new_e\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/connectionpool.py\", line 464, in _make_request\n    self._validate_conn(conn)\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/connectionpool.py\", line 1106, in _validate_conn\n    conn.connect()\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/connection.py\", line 759, in connect\n    self.sock = sock = self._new_conn()\n                       ^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/connection.py\", line 219, in _new_conn\n    raise NewConnectionError(\nurllib3.exceptions.NewConnectionError: HTTPSConnection(host='www.cls.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/connectionpool.py\", line 842, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/util/retry.py\", line 543, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.cls.cn', port=443): Max retries exceeded with url: /nodeapi/telegraphList (Caused by NewConnectionError(\"HTTPSConnection(host='www.cls.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/akshare/request.py\", line 28, in make_request_with_retry_json\n    response = requests.get(\n               ^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/api.py\", line 87, in get\n    return request(\"get\", url, params=params, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/api.py\", line 71, in request\n    return session.request(method=method, url=url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/sessions.py\", line 651, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/sessions.py\", line 784, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/adapters.py\", line 729, in send\n    raise ConnectionError(e, request=request)\nrequests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.cls.cn', port=443): Max retries exceeded with url: /nodeapi/telegraphList (Caused by NewConnectionError(\"HTTPSConnection(host='www.cls.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 29, in safe_fetch\n    df = fn()\n         ^^^^\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 55, in <lambda>\n    return safe_fetch(label, lambda: getattr(ak, attr)(*args, **kwargs))\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/akshare/stock_feature/stock_info.py\", line 202, in stock_info_global_cls\n    data_json = make_request_with_retry_json(url, max_retries=10, headers=headers)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/akshare/request.py\", line 55, in make_request_with_retry_json\n    raise NetworkError(\nakshare.exceptions.NetworkError: Failed to connect after 10 attempts: HTTPSConnectionPool(host='www.cls.cn', port=443): Max retries exceeded with url: /nodeapi/telegraphList (Caused by NewConnectionError(\"HTTPSConnection(host='www.cls.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))\n",
+      "错误": "Failed to connect after 10 attempts: Response ended prematurely",
+      "堆栈": "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py\", line 937, in generate\n    yield from self.raw.stream(chunk_size, decode_content=True)\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/response.py\", line 1260, in stream\n    yield from self.read_chunked(amt, decode_content=decode_content)\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/response.py\", line 1430, in read_chunked\n    self._update_chunk_length()\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/urllib3/response.py\", line 1354, in _update_chunk_length\n    raise ProtocolError(\"Response ended prematurely\") from None\nurllib3.exceptions.ProtocolError: Response ended prematurely\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/akshare/request.py\", line 28, in make_request_with_retry_json\n    response = requests.get(\n               ^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/api.py\", line 87, in get\n    return request(\"get\", url, params=params, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/api.py\", line 71, in request\n    return session.request(method=method, url=url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/sessions.py\", line 651, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/sessions.py\", line 827, in send\n    r.content\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py\", line 1042, in content\n    self._content = b\"\".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b\"\"\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py\", line 939, in generate\n    raise ChunkedEncodingError(e)\nrequests.exceptions.ChunkedEncodingError: Response ended prematurely\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 29, in safe_fetch\n    df = fn()\n         ^^^^\n  File \"/home/runner/work/hana_helper/hana_helper/fetch_akshare.py\", line 55, in <lambda>\n    return safe_fetch(label, lambda: getattr(ak, attr)(*args, **kwargs))\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/akshare/stock_feature/stock_info.py\", line 202, in stock_info_global_cls\n    data_json = make_request_with_retry_json(url, max_retries=10, headers=headers)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/akshare/request.py\", line 55, in make_request_with_retry_json\n    raise NetworkError(\nakshare.exceptions.NetworkError: Failed to connect after 10 attempts: Response ended prematurely\n",
       "数据": []
     },
     "东方财富个股新闻": {
@@ -28,28 +28,20 @@
           "当前排名": 1,
           "代码": "SZ001309",
           "股票名称": "德明利",
-          "最新价": 488.0,
-          "涨跌额": 5.1728,
-          "涨跌幅": 1.06
+          "最新价": 508.0,
+          "涨跌额": 26.416,
+          "涨跌幅": 5.2
         },
         {
           "当前排名": 2,
           "代码": "SH600584",
           "股票名称": "长电科技",
-          "最新价": 82.0,
-          "涨跌额": 5.3382,
-          "涨跌幅": 6.51
+          "最新价": 84.69,
+          "涨跌额": 8.469,
+          "涨跌幅": 10.0
         },
         {
           "当前排名": 3,
-          "代码": "SH601991",
-          "股票名称": "大唐发电",
-          "最新价": 6.33,
-          "涨跌额": -0.049374,
-          "涨跌幅": -0.78
-        },
-        {
-          "当前排名": 4,
           "代码": "SZ000938",
           "股票名称": "紫光股份",
           "最新价": 41.46,
@@ -57,39 +49,87 @@
           "涨跌幅": 10.0
         },
         {
-          "当前排名": 5,
+          "当前排名": 4,
           "代码": "SZ000725",
           "股票名称": "京东方Ａ",
-          "最新价": 6.14,
-          "涨跌额": 0.370856,
-          "涨跌幅": 6.04
+          "最新价": 6.31,
+          "涨跌额": 0.566638,
+          "涨跌幅": 8.98
+        },
+        {
+          "当前排名": 5,
+          "代码": "SZ002185",
+          "股票名称": "华天科技",
+          "最新价": 18.35,
+          "涨跌额": 1.6331500000000003,
+          "涨跌幅": 8.9
         },
         {
           "当前排名": 6,
-          "代码": "SH600744",
-          "股票名称": "华银电力",
-          "最新价": 6.91,
-          "涨跌额": 0.368994,
-          "涨跌幅": 5.34
+          "代码": "SH603986",
+          "股票名称": "兆易创新",
+          "最新价": 475.53,
+          "涨跌额": 47.55299999999999,
+          "涨跌幅": 10.0
         },
         {
           "当前排名": 7,
-          "代码": "SH603986",
-          "股票名称": "兆易创新",
-          "最新价": 470.1,
-          "涨跌额": 41.08674,
-          "涨跌幅": 8.74
+          "代码": "SH601991",
+          "股票名称": "大唐发电",
+          "最新价": 6.62,
+          "涨跌额": 0.24891199999999997,
+          "涨跌幅": 3.76
         },
         {
           "当前排名": 8,
-          "代码": "SZ002185",
-          "股票名称": "华天科技",
-          "最新价": 17.64,
-          "涨跌额": 0.8273160000000002,
-          "涨跌幅": 4.69
+          "代码": "SH600744",
+          "股票名称": "华银电力",
+          "最新价": 7.22,
+          "涨跌额": 0.726332,
+          "涨跌幅": 10.06
         },
         {
           "当前排名": 9,
+          "代码": "SZ002156",
+          "股票名称": "通富微电",
+          "最新价": 69.3,
+          "涨跌额": 6.93,
+          "涨跌幅": 10.0
+        },
+        {
+          "当前排名": 10,
+          "代码": "SH600664",
+          "股票名称": "哈药股份",
+          "最新价": 5.84,
+          "涨跌额": 0.582832,
+          "涨跌幅": 9.98
+        },
+        {
+          "当前排名": 11,
+          "代码": "SZ000021",
+          "股票名称": "深科技",
+          "最新价": 38.65,
+          "涨跌额": 3.861135,
+          "涨跌幅": 9.99
+        },
+        {
+          "当前排名": 12,
+          "代码": "SZ300308",
+          "股票名称": "中际旭创",
+          "最新价": 1136.55,
+          "涨跌额": 150.0246,
+          "涨跌幅": 13.2
+        },
+        {
+          "当前排名": 13,
+          "代码": "SZ002384",
+          "股票名称": "东山精密",
+          "最新价": 231.0,
+          "涨跌额": 14.0679,
+          "涨跌幅": 6.09
+        },
+        {
+          "当前排名": 14,
           "代码": "SZ001258",
           "股票名称": "立新能源",
           "最新价": 10.01,
@@ -97,7 +137,7 @@
           "涨跌幅": 10.0
         },
         {
-          "当前排名": 10,
+          "当前排名": 15,
           "代码": "SZ002432",
           "股票名称": "九安医疗",
           "最新价": 79.75,
@@ -105,31 +145,7 @@
           "涨跌幅": 10.0
         },
         {
-          "当前排名": 11,
-          "代码": "SZ000815",
-          "股票名称": "美利云",
-          "最新价": 14.66,
-          "涨跌额": 1.463068,
-          "涨跌幅": 9.98
-        },
-        {
-          "当前排名": 12,
-          "代码": "SZ002384",
-          "股票名称": "东山精密",
-          "最新价": 227.5,
-          "涨跌额": 10.21475,
-          "涨跌幅": 4.49
-        },
-        {
-          "当前排名": 13,
-          "代码": "SH600396",
-          "股票名称": "华电辽能",
-          "最新价": 12.66,
-          "涨跌额": -0.15825,
-          "涨跌幅": -1.25
-        },
-        {
-          "当前排名": 14,
+          "当前排名": 16,
           "代码": "SZ300285",
           "股票名称": "国瓷材料",
           "最新价": 59.9,
@@ -137,31 +153,55 @@
           "涨跌幅": 19.99
         },
         {
-          "当前排名": 15,
-          "代码": "SZ300308",
-          "股票名称": "中际旭创",
-          "最新价": 1099.87,
-          "涨跌额": 105.03758499999999,
-          "涨跌幅": 9.55
-        },
-        {
-          "当前排名": 16,
-          "代码": "SZ300502",
-          "股票名称": "新易盛",
-          "最新价": 550.0,
-          "涨跌额": 43.12,
-          "涨跌幅": 7.84
-        },
-        {
           "当前排名": 17,
-          "代码": "SH600487",
-          "股票名称": "亨通光电",
-          "最新价": 59.16,
-          "涨跌额": 2.72136,
-          "涨跌幅": 4.6
+          "代码": "SH600667",
+          "股票名称": "太极实业",
+          "最新价": 16.69,
+          "涨跌额": 1.672338,
+          "涨跌幅": 10.02
         },
         {
           "当前排名": 18,
+          "代码": "SH600396",
+          "股票名称": "华电辽能",
+          "最新价": 13.56,
+          "涨跌额": 0.7824119999999999,
+          "涨跌幅": 5.77
+        },
+        {
+          "当前排名": 19,
+          "代码": "SH600487",
+          "股票名称": "亨通光电",
+          "最新价": 59.96,
+          "涨跌额": 3.603596,
+          "涨跌幅": 6.01
+        },
+        {
+          "当前排名": 20,
+          "代码": "SZ300502",
+          "股票名称": "新易盛",
+          "最新价": 551.77,
+          "涨跌额": 45.189963,
+          "涨跌幅": 8.19
+        },
+        {
+          "当前排名": 21,
+          "代码": "SZ000977",
+          "股票名称": "浪潮信息",
+          "最新价": 88.66,
+          "涨跌额": 8.041462000000001,
+          "涨跌幅": 9.07
+        },
+        {
+          "当前排名": 22,
+          "代码": "SZ000815",
+          "股票名称": "美利云",
+          "最新价": 14.66,
+          "涨跌额": 1.463068,
+          "涨跌幅": 9.98
+        },
+        {
+          "当前排名": 23,
           "代码": "SZ002371",
           "股票名称": "北方华创",
           "最新价": 744.6,
@@ -169,23 +209,63 @@
           "涨跌幅": 10.0
         },
         {
-          "当前排名": 19,
-          "代码": "SH600664",
-          "股票名称": "哈药股份",
-          "最新价": 5.33,
-          "涨跌额": 0.020253999999999998,
-          "涨跌幅": 0.38
+          "当前排名": 24,
+          "代码": "SH600522",
+          "股票名称": "中天科技",
+          "最新价": 34.63,
+          "涨跌额": 2.5903240000000007,
+          "涨跌幅": 7.48
         },
         {
-          "当前排名": 20,
-          "代码": "SZ000676",
-          "股票名称": "智度股份",
-          "最新价": 6.88,
-          "涨跌额": 0.5861759999999999,
-          "涨跌幅": 8.52
+          "当前排名": 25,
+          "代码": "SZ002396",
+          "股票名称": "星网锐捷",
+          "最新价": 31.61,
+          "涨跌额": 3.157839,
+          "涨跌幅": 9.99
         },
         {
-          "当前排名": 21,
+          "当前排名": 26,
+          "代码": "SZ300059",
+          "股票名称": "东方财富",
+          "最新价": 20.29,
+          "涨跌额": 0.11159500000000001,
+          "涨跌幅": 0.55
+        },
+        {
+          "当前排名": 27,
+          "代码": "SZ301217",
+          "股票名称": "铜冠铜箔",
+          "最新价": 107.54,
+          "涨跌额": 4.484418,
+          "涨跌幅": 4.17
+        },
+        {
+          "当前排名": 28,
+          "代码": "SZ000100",
+          "股票名称": "TCL科技",
+          "最新价": 5.35,
+          "涨跌额": 0.409275,
+          "涨跌幅": 7.65
+        },
+        {
+          "当前排名": 29,
+          "代码": "SZ300604",
+          "股票名称": "长川科技",
+          "最新价": 318.0,
+          "涨跌额": 63.6,
+          "涨跌幅": 20.0
+        },
+        {
+          "当前排名": 30,
+          "代码": "SZ002281",
+          "股票名称": "光迅科技",
+          "最新价": 187.0,
+          "涨跌额": 18.0829,
+          "涨跌幅": 9.67
+        },
+        {
+          "当前排名": 31,
           "代码": "SZ002167",
           "股票名称": "东方锆业",
           "最新价": 16.85,
@@ -193,31 +273,23 @@
           "涨跌幅": 9.99
         },
         {
-          "当前排名": 22,
-          "代码": "SZ002156",
-          "股票名称": "通富微电",
-          "最新价": 68.33,
-          "涨跌额": 5.780718,
-          "涨跌幅": 8.46
+          "当前排名": 32,
+          "代码": "SH601138",
+          "股票名称": "工业富联",
+          "最新价": 60.98,
+          "涨跌额": 4.835713999999999,
+          "涨跌幅": 7.93
         },
         {
-          "当前排名": 23,
-          "代码": "SZ000021",
-          "股票名称": "深科技",
-          "最新价": 38.25,
-          "涨跌额": 3.385125,
-          "涨跌幅": 8.85
+          "当前排名": 33,
+          "代码": "SH600519",
+          "股票名称": "贵州茅台",
+          "最新价": 1308.0,
+          "涨跌额": -19.2276,
+          "涨跌幅": -1.47
         },
         {
-          "当前排名": 24,
-          "代码": "SZ301217",
-          "股票名称": "铜冠铜箔",
-          "最新价": 104.5,
-          "涨跌额": 1.2749,
-          "涨跌幅": 1.22
-        },
-        {
-          "当前排名": 25,
+          "当前排名": 34,
           "代码": "SH603118",
           "股票名称": "共进股份",
           "最新价": 14.93,
@@ -225,31 +297,15 @@
           "涨跌幅": 10.02
         },
         {
-          "当前排名": 26,
-          "代码": "SH600667",
-          "股票名称": "太极实业",
-          "最新价": 16.0,
-          "涨跌额": 0.8752,
-          "涨跌幅": 5.47
+          "当前排名": 35,
+          "代码": "SZ000676",
+          "股票名称": "智度股份",
+          "最新价": 6.92,
+          "涨跌额": 0.6331800000000001,
+          "涨跌幅": 9.15
         },
         {
-          "当前排名": 27,
-          "代码": "SH600519",
-          "股票名称": "贵州茅台",
-          "最新价": 1301.69,
-          "涨跌额": -25.252786,
-          "涨跌幅": -1.94
-        },
-        {
-          "当前排名": 28,
-          "代码": "SZ000977",
-          "股票名称": "浪潮信息",
-          "最新价": 87.42,
-          "涨跌额": 6.591468,
-          "涨跌幅": 7.54
-        },
-        {
-          "当前排名": 29,
+          "当前排名": 36,
           "代码": "SH603629",
           "股票名称": "利通电子",
           "最新价": 107.58,
@@ -257,63 +313,47 @@
           "涨跌幅": 10.0
         },
         {
-          "当前排名": 30,
-          "代码": "SZ300059",
-          "股票名称": "东方财富",
-          "最新价": 20.02,
-          "涨跌额": -0.15815800000000002,
-          "涨跌幅": -0.79
+          "当前排名": 37,
+          "代码": "SH600176",
+          "股票名称": "中国巨石",
+          "最新价": 43.0,
+          "涨跌额": 3.8829,
+          "涨跌幅": 9.03
         },
         {
-          "当前排名": 31,
-          "代码": "SZ000100",
-          "股票名称": "TCL科技",
-          "最新价": 5.3,
-          "涨跌额": 0.35192,
-          "涨跌幅": 6.64
+          "当前排名": 38,
+          "代码": "SH600460",
+          "股票名称": "士兰微",
+          "最新价": 32.87,
+          "涨跌额": 3.2902869999999997,
+          "涨跌幅": 10.01
         },
         {
-          "当前排名": 32,
-          "代码": "SZ002396",
-          "股票名称": "星网锐捷",
-          "最新价": 31.39,
-          "涨跌额": 2.8941580000000005,
-          "涨跌幅": 9.22
-        },
-        {
-          "当前排名": 33,
-          "代码": "SZ002036",
-          "股票名称": "联创电子",
-          "最新价": 7.21,
-          "涨跌额": 0.726768,
-          "涨跌幅": 10.08
-        },
-        {
-          "当前排名": 34,
-          "代码": "SH600522",
-          "股票名称": "中天科技",
-          "最新价": 33.4,
-          "涨跌额": 1.22244,
-          "涨跌幅": 3.66
-        },
-        {
-          "当前排名": 35,
-          "代码": "SH603799",
-          "股票名称": "华友钴业",
-          "最新价": 39.03,
-          "涨跌额": 3.040437,
-          "涨跌幅": 7.79
-        },
-        {
-          "当前排名": 36,
+          "当前排名": 39,
           "代码": "SH601869",
           "股票名称": "长飞光纤",
-          "最新价": 389.65,
-          "涨跌额": 7.792999999999999,
-          "涨跌幅": 2.0
+          "最新价": 406.38,
+          "涨跌额": 25.927044000000002,
+          "涨跌幅": 6.38
         },
         {
-          "当前排名": 37,
+          "当前排名": 40,
+          "代码": "SH600206",
+          "股票名称": "有研新材",
+          "最新价": 39.46,
+          "涨跌额": 3.9499459999999997,
+          "涨跌幅": 10.01
+        },
+        {
+          "当前排名": 41,
+          "代码": "SZ002747",
+          "股票名称": "埃斯顿",
+          "最新价": 33.43,
+          "涨跌额": -0.912639,
+          "涨跌幅": -2.73
+        },
+        {
+          "当前排名": 42,
           "代码": "SZ301583",
           "股票名称": "托伦斯",
           "最新价": 132.26,
@@ -321,108 +361,68 @@
           "涨跌幅": 20.0
         },
         {
-          "当前排名": 38,
-          "代码": "SH600726",
-          "股票名称": "华电能源",
-          "最新价": 5.85,
-          "涨跌额": 0.01989,
-          "涨跌幅": 0.34
-        },
-        {
-          "当前排名": 39,
-          "代码": "SZ000988",
-          "股票名称": "华工科技",
-          "最新价": 110.0,
-          "涨跌额": 4.301,
-          "涨跌幅": 3.91
-        },
-        {
-          "当前排名": 40,
-          "代码": "SZ002747",
-          "股票名称": "埃斯顿",
-          "最新价": 33.19,
-          "涨跌额": -1.138417,
-          "涨跌幅": -3.43
-        },
-        {
-          "当前排名": 41,
-          "代码": "SZ000889",
-          "股票名称": "中嘉博创",
-          "最新价": 3.8,
-          "涨跌额": 0.38532000000000005,
-          "涨跌幅": 10.14
-        },
-        {
-          "当前排名": 42,
-          "代码": "SZ300604",
-          "股票名称": "长川科技",
-          "最新价": 306.88,
-          "涨跌额": 48.48704,
-          "涨跌幅": 15.8
-        },
-        {
           "当前排名": 43,
-          "代码": "SZ002281",
-          "股票名称": "光迅科技",
-          "最新价": 181.6,
-          "涨跌额": 11.803999999999998,
-          "涨跌幅": 6.5
+          "代码": "SH688008",
+          "股票名称": "澜起科技",
+          "最新价": 219.6,
+          "涨跌额": 34.30152,
+          "涨跌幅": 15.62
         },
         {
           "当前排名": 44,
-          "代码": "SH600176",
-          "股票名称": "中国巨石",
-          "最新价": 42.67,
-          "涨跌额": 3.4946729999999997,
-          "涨跌幅": 8.19
+          "代码": "SZ301308",
+          "股票名称": "江波龙",
+          "最新价": 421.86,
+          "涨跌额": 50.83413,
+          "涨跌幅": 12.05
         },
         {
           "当前排名": 45,
-          "代码": "SH600821",
-          "股票名称": "金开新能",
-          "最新价": 6.5,
-          "涨跌额": 0.27105,
-          "涨跌幅": 4.17
+          "代码": "SH688347",
+          "股票名称": "华虹宏力",
+          "最新价": 397.78,
+          "涨跌额": 79.556,
+          "涨跌幅": 20.0
         },
         {
           "当前排名": 46,
-          "代码": "SH688347",
-          "股票名称": "华虹宏力",
-          "最新价": 389.85,
-          "涨跌额": 68.652585,
-          "涨跌幅": 17.61
+          "代码": "SH688256",
+          "股票名称": "寒武纪",
+          "最新价": 1350.02,
+          "涨跌额": 157.412332,
+          "涨跌幅": 11.66
         },
         {
           "当前排名": 47,
-          "代码": "SH601138",
-          "股票名称": "工业富联",
-          "最新价": 59.23,
-          "涨跌额": 2.8608089999999997,
-          "涨跌幅": 4.83
+          "代码": "SZ000988",
+          "股票名称": "华工科技",
+          "最新价": 113.15,
+          "涨跌额": 7.796035000000001,
+          "涨跌幅": 6.89
         },
         {
           "当前排名": 48,
-          "代码": "SZ000636",
-          "股票名称": "风华高科",
-          "最新价": 43.62,
-          "涨跌额": 1.81023,
-          "涨跌幅": 4.15
+          "代码": "SZ002407",
+          "股票名称": "多氟多",
+          "最新价": 30.13,
+          "涨跌额": 2.154295,
+          "涨跌幅": 7.15
         },
         {
           "当前排名": 49,
-          "代码": "SH600183",
-          "股票名称": "生益科技",
-          "最新价": 133.72,
-          "涨跌额": 11.259224,
-          "涨跌幅": 8.42
+          "代码": "SZ000636",
+          "股票名称": "风华高科",
+          "最新价": 44.32,
+          "涨跌额": 2.583856,
+          "涨跌幅": 5.83
         },
         {
           "当前排名": 50,
-          "代码": "SH688008",
-          "股票名称": "澜起科技",
-          "最新价": 209.93,
-          "涨跌额": 22.084636,
-          "涨跌幅": 10.52
+          "代码": "SH600183",
+          "股票名称": "生益科技",
+          "最新价": 135.67,
+          "涨跌额": 13.566999999999998,
+          "涨跌幅": 10.0
         }
       ]
     },
@@ -488,7 +488,7 @@
         },
         {
           "date": "20240424",
-          "title": "对不起，可能是网络原因或无此页面，请稍后尝试。",
+          "title": "我国设立国家海外知识产权纠纷应对指导中心 为企业挽回经济损失68.9亿元",
           "content": "国务院新闻办公室今天（4月24日）举行发布会，国家知识产权局介绍，已经会同中国贸促会设立国家海外知识产权纠纷应对指导中心，并在27个省（区、市）布局建设了43家地方分中心，在贸易往来密集的国家和地区设立了工作指导站，为企业提供专业高效的海外维权指导服务。2023年，指导企业1706家，为企业挽回经济损失68.9亿元，帮助企业降低维权成本3.9亿元。"
         },
         {
